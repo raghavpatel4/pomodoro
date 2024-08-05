@@ -57,6 +57,7 @@ class Timer:
     def get_time_remaining(self):
         minutes = self.time_remaining // 60
         seconds = self.time_remaining % 60
+        print(f"{minutes:02}:{seconds:02}")
         return f"{minutes:02}:{seconds:02}"
 
     def get_current_state(self):
